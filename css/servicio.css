@@ -1,0 +1,13 @@
+/*NORMALIZE*/
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/*HEADER*/
+
+header{
+   background-color:rgba(151, 197, 8, 0.85);
+   height: 150px;
+   margin: 23px;
+   /*permite la localizacion de los elementos por separados segun las optiones*/
+   display: flex;
+   justify-content: space-between;
+}

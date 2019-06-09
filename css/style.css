@@ -1,0 +1,210 @@
+/*NORMALIZE*/
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/*HEADER*/
+
+header{
+   background-color:rgba(151, 197, 8, 0.85);
+   height: 150px;
+   margin: 7px;
+   /*permite la localizacion de los elementos por separados segun las optiones*/
+   display: flex;
+   justify-content: space-between;
+}
+
+#logo{
+  display: flex;
+  
+}
+
+#logo img{
+    width: 105px;
+    margin: 30px;
+}
+/* como puedo bajarlo un poco mas?? Que da ocmo un cuadraro !!*/
+span{
+    color:white; 
+    align-self: center;
+    margin-top: 60px;
+}
+
+#login {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    position: relative;
+}
+
+#login a{
+    padding: 12px;
+    color: currentColor;
+    text-decoration: none;
+    font-family: 'Roboto',Arial, sans-serif;
+}
+
+#login input:nth-of-type(1){
+    width: 80px;
+    height: 30px;
+    border-radius: 9px;
+    position: absolute;
+    top: 10px;
+    right: 21px;
+}
+
+#login input:nth-of-type(2) {
+    width: 80px;
+    height: 30px;
+    border-radius: 9px;
+    position: absolute;
+    top: 10px;
+    right: 124px;
+  }
+/*
+#login input:nth-child(2) {
+    width: 80px;
+    height: 30px;
+    border-radius: 9px;
+    position: absolute;
+    top: 10px;
+    right: 124px;
+}*/
+
+
+/*****************************MAIN*************************/
+
+#contenedor1 {
+   display: flex;
+   margin: 18px;
+   /*por que no funciona justin-contener:space-beetwen???*/
+}
+/*nth-child(1): permite la localizacion de diferentes elementos*/
+#contenedor1 div:nth-child(1){
+    display: flex;
+
+}
+#contenedor1 div:nth-child(1) p{
+    width: 350px;
+}
+
+#contenedor1 div:nth-child(1) img {
+    width: 250px;
+}
+#contenedor1 div:nth-child(2){
+    display: flex;
+ }
+#contenedor1 div:nth-child(2) img {
+    width: 130px;
+    height: 60px;
+ }
+
+
+ #contenedor2{
+     width: 100%;
+     display: flex;
+ }
+
+ #contenedor2 img{
+    width: 250px;
+    height: 150px;
+    margin: 18px;
+ }
+
+ #contenedor3{
+     display: flex;
+     margin: 18px;
+ }
+
+ #contenedor3 div{
+    width: 1900px;
+    height: 150px;
+    background-color:  rgba(174, 210, 30, 0.64);
+}
+
+/************     FOOTER      ************************/
+footer{
+    margin: 18px;
+    border-color: black;
+    height: 360px;
+    background-color:#13121214;
+}
+
+#footer > div{
+    width: 200px;
+    position: absolute;
+}
+
+#footer{
+    display: flex;
+    position: relative;
+}
+
+#lista1{ 
+    right: 901px;
+}
+#lista1 > ul> li> a{
+    text-decoration: none;
+    color: darkgray;
+}
+#lista1 > ul> li{
+    list-style: none;
+}
+#lista2{
+    right: 542px;
+}
+#lista2 > ul> li> a{
+    text-decoration: none;
+    color: darkgray;
+} 
+#lista2 > ul> li{
+    list-style: none;
+}
+#lista3{  
+    right: 90px;
+}
+#lista3 > div> ul> li> a{
+    text-decoration: none;
+    color: darkgray;
+}
+
+#lista3 > div> ul> li{
+    list-style: none;
+}
+
+section div:nth-child(1){
+    border-bottom: 1px solid #d6d6d6;
+    position: absolute;
+    top: 268px;
+    margin-bottom: 7px;
+    padding-bottom: 8px;
+    width: 1000px;
+    left: 108px;
+}
+section div:nth-child(1) a{
+  text-decoration: none;
+  color: #827e7e;
+}
+#footer > #legal{
+    top: 305px;
+    width: 1155px;
+    position: relative;
+}
+
+#legal-copy{
+    width: 636px;
+    left: 105px;
+    position: relative;
+}
+#legal-copy::after{
+    content:"Todos los derechos reservados.";
+    
+}
+#legal-links{
+    position: absolute;
+    bottom: 1px;
+    left: 499px;
+}
+#legal-links > a{
+    text-decoration: none;
+    color: #827e7e;
+}
+
